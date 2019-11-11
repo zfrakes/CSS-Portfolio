@@ -1,0 +1,30 @@
+
+body{ color:#ffffff;
+
+}
+
+h1{ font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#4aaaa5;
+    position: absolute;
+    top:0;
+    left:0
+    
+    
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ background-color: #4aaaa5;
+    
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: ;
+}
+p{
+    color:#777777;
+}
