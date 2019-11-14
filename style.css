@@ -1,24 +1,63 @@
-
-body{ color:#ffffff;
-
+body{
+    background:#dddddd;
 }
 
-h1{ font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color:#4aaaa5;
-    position: absolute;
-    top:0;
-    left:0
+
+
+header {
+    width:960px;
+    background:#ffffff;
+    margin:0 auto; 
+    overflow: hidden;
+    border-bottom:1px solid #cccccc;
+  }
+  header h1{
+      background:#4aaaa5;
+      text-align:center;
+      width:150px;
+      float: left;
+      
+    }
+
     
+nav{
+    float:right;
+}
+nav button{
+    border: none;
+    padding: 10px 20px;
+    border-right: 1px solid#cccccc;
+
+}
+h1{ padding: 20px 0;
+    margin: 0;
+    font-size: 28px;
+    background:#4aaaa5;
+    color: #ffffff;
+    text-align: left;
     
 }
-
+img {
+    float: left;
+  }
+article{
+   background:#ffffff;
+   width: 940px;
+   height:350px;
+   margin: 20px auto 0;
+   padding: 10px;
+   
+   
+}
 h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
+    border-bottom: 4px solid #dddddd;
 }
 h3{
     font-family:Georgia, 'Times New Roman', Times, serif;
  background-color: #4aaaa5;
+ color:#ffffff;
     
 }
 h4{
@@ -28,3 +67,20 @@ h4{
 p{
     color:#777777;
 }
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 940%;
+    height: 50px;
+    background-color:#666666;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+ }
+ div.wrapper{
+     margin: 0 auto;
+     width: 60rem;
+ }
+
