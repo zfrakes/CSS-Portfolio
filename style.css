@@ -22,6 +22,8 @@ header {
     
 nav{
     float:right;
+    text-align: right;
+   
 }
 nav button{
     border: none;
@@ -79,11 +81,22 @@ p{
     text-align: center;
     border-top: 8px solid #4aaaa5;
  }
+
  div.wrapper{
      margin: 0 auto;
      width: 60rem;
  }
+footer.footer {
+    height: 40px;
+    width: 100%;
+    background-color: #666666;
+}
 
+p.copyright {
+    color: #fff;
+    line-height: 50px;
+    font-size: 0.7em;
+}
 
 
 input[type=text], select, textarea {
@@ -131,9 +144,11 @@ img{
     bottom: 10px;
     width: 200px;
     text-align: center;
+    float:right;
 }
 .family{
     position: relative;
+    float: right;
 }
 .friends h3{
     margin-top:0;
@@ -162,9 +177,11 @@ img{
     bottom: 10px;
     width: 200px;
     text-align: center;
+    float: right;
 }
 .Memories{
     position: relative;
+    float: right;
 }
 .Inspiration h3{
     margin-top:0;
@@ -172,7 +189,9 @@ img{
     bottom: 10px;
     width: 200px;
     text-align: center;
+    
 }
 .Inspiration{
     position: relative;
+    
 }
