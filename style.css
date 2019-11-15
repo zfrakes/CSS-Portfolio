@@ -23,16 +23,20 @@ header {
 nav{
     float:right;
     text-align: right;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
    
 }
 nav button{
     border: none;
     padding: 10px 20px;
     border-right: 1px solid#cccccc;
+    clear: both;
+    display: table;
 
 }
 h1{ padding: 20px 0;
-    margin: 0;
+    margin: 0;`
     font-size: 28px;
     background:#4aaaa5;
     color: #ffffff;
