@@ -5,17 +5,20 @@ body{
 
 
 header {
-    width:960px;
+    width:100%;
     background:#ffffff;
     margin:0 auto; 
     overflow: hidden;
     border-bottom:1px solid #cccccc;
+    box-sizing: border-box;
   }
   header h1{
       background:#4aaaa5;
       text-align:center;
-      width:150px;
+      width:200px;
       float: left;
+      margin-left: 415px;
+      
       
     }
 
